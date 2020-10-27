@@ -9,6 +9,7 @@ import { ProductFormComponent } from './pages/admin/product/product-form/product
 import { ProductNavbarComponent } from './pages/admin/product/product-navbar/product-navbar.component';
 import { RegistryComponent } from './pages/authorization/registry/registry.component';
 import { LoginComponent } from './pages/authorization/login/login.component';
+import { CentralViewComponent } from './pages/authorization/login/central-view/central-view.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { LoginComponent } from './pages/authorization/login/login.component';
     ProductFormComponent,
     ProductNavbarComponent,
     RegistryComponent,
-    LoginComponent
+    LoginComponent,
+    CentralViewComponent
   ],
   imports: [
     BrowserModule,
